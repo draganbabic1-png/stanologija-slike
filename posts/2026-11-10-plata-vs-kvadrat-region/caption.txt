@@ -1,0 +1,25 @@
+Koliko prosečnih plata košta stan od 60 m² u regionu? 🏗️
+
+Uzeli smo zvaničnu prosečnu cenu kvadrata novogradnje i prosečnu neto platu u četiri zemlje. Ista računica za sve:
+
+🇲🇪 Crna Gora: 147 plata (≈12,3 godine)
+🇧🇦 BiH: 117 plata (≈9,7 godina)
+🇭🇷 Hrvatska: 116 plata (≈9,7 godina)
+🇷🇸 Srbija: 112 plata (≈9,4 godine)
+
+Kvadrat novogradnje: Hrvatska 2.994 €, Crna Gora 2.557 €, Srbija 1.872 €, BiH 3.311 KM (≈1.693 €).
+Prosečna neto plata: Hrvatska 1.543 €, Crna Gora 1.043 €, Srbija 117.282 din (≈999 €), BiH 1.701 KM (≈870 €).
+
+Srbija ima najjeftiniji kvadrat, Hrvatska najveću platu, a na kraju su tri zemlje skoro izjednačene: oko 1,9 plata po kvadratu. Crna Gora iskače sa 2,45 jer je novogradnja za godinu dana poskupela 16,2%.
+
+Test kredita za Crnu Goru (Investitor.me): stan od 153.420 €, 20% učešća, 25 godina, 5% kamate → rata ≈718 €, odnosno 69% jedne prosečne plate.
+
+⚠ Sitna slova: prosek nije tipična plata (u Hrvatskoj je medijalna 1.336 €, pa stan košta 134 plate, ne 116). Zavodi mere različito, pa je poređenje orijentaciono. Samo novogradnja, bez starogradnje.
+
+💬 Koliko bi tebi trebalo plata za 60 m² u tvom gradu? Napiši u komentaru.
+🔖 Sačuvaj i pošalji nekom ko kupuje stan.
+
+Izvori: RGZ, Statistika cena nepokretnosti I polugodište 2026 (preko Srpske novine, 7.9.2026); RZS, prosečna zarada avgust 2026; DZS, Cijene prodanih novih stanova I-VI 2026 (7.9.2026) i plaće kolovoz 2026 (21.10.2026); Monstat, Cijene stanova u novogradnji II kvartal 2026 (20.8.2026) i zarade septembar 2026 (30.10.2026); Agencija za statistiku BiH, cijene novih stanova II kvartal 2026 (20.8.2026) i plate avgust 2026; Investitor.me (4.11.2026). Kurs NBS 117,36 din/€; 1 € = 1,95583 KM.
+Obračun STANOLOGIJA: 60 m² × cena m² ÷ prosečna neto plata; godine = plate ÷ 12.
+
+#stanologija #nekretnine #stanovi #cenestanova #kupovinastana #novogradnja #plata #stambenikredit #nekretninesrbija #nekretninecg #nekretninebih #nekretninehrvatska #podgorica #beograd #zagreb
