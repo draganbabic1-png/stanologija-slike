@@ -1,0 +1,25 @@
+Kako kupiti LED sijalicu: ne gledaj vate, gledaj lumene. 💡 Četiri broja sa kutije koja odlučuju da li će ti stan biti prijatan ili kao čekaonica.
+
+1️⃣ Lumeni (lm) = koliko svetli. Po pravilima EU, LED sme da se reklamira kao zamena za staru sijalicu samo ako ima dovoljno lumena:
+▪️ 40 W → 470 lm
+▪️ 60 W → 806 lm
+▪️ 75 W → 1.055 lm
+▪️ 100 W → 1.521 lm
+
+2️⃣ Energetska klasa. Od 1. septembra 2021. važi nova skala A–G, bez A++. Klasa A je 210+ lumena po vatu, F je 85–110. LED od 806 lm u klasi F troši 7,3–9,5 W, u klasi A najviše 3,8 W.
+
+3️⃣ Potrošnja (Obračun STANOLOGIJA, 1.000 sati gorenja): obična 60 W = 60 kWh, LED klase F najviše 9,5 kWh, klase C najviše 5,0 kWh. To je 84–92% manje struje za isto svetlo.
+
+4️⃣ Kelvini (K) = boja svetla. 2700–3000 K toplo za spavaću i dnevnu, 3500–4000 K za kuhinju i rad (preporuke proizvođača, ne propis).
+
+5️⃣ CRI (Ra) = koliko verno izgledaju boje. Minimum u EU je Ra 80. Naš savet: Ra 90+ za kuhinju, kupatilo i ogledalo.
+
+Napomena: ovo su pravila EU (važe npr. u Hrvatskoj i Sloveniji); van EU proveri šta piše na kutiji. „Nekadašnja A+ je danas obično E ili F” je naša procena.
+
+📩 Pošalji ovo nekome ko oprema stan (ili ko i dalje traži „neku od 60 vati”).
+🔖 Sačuvaj za sledeći odlazak u prodavnicu.
+
+Izvori: Uredba Komisije (EZ) 244/2009, Prilog II, Tabela 6; Delegirana uredba (EU) 2019/2015 (klase A–G); Uredba Komisije (EU) 2019/2020, Prilog II, Tabela 4 (CRI); Feit Electric, vodič za temperaturu boje.
+Obračun STANOLOGIJA: vati = 806 lm ÷ (lm/W); kWh = W × 1.000 h ÷ 1.000.
+
+#stanologija #rasveta #ledsijalice #enterijer #uredjenjestana

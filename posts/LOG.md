@@ -6,3 +6,4 @@
 | 2026-11-09 | 2026-11-09-minimalni-stan | Koliko najmanje sme da bude stan (pravilnik: površine, širine, visina, vrata) | Standardi i dimenzije | Objavljeno | 17994899339852652 |
 | 2026-11-10 | 2026-11-10-plata-vs-kvadrat-region | Koliko plata košta stan od 60 m² (SR, HR, CG, BiH; novogradnja vs prosečna plata) | Tržište | Objavljeno | 18168614872487293 |
 | 2026-11-11 | 2026-11-11-porez-prazni-stanovi-zagreb | Zagreb od 2027. diže porez na prazne stanove sa 5 na 8 €/m² (ko plaća, ko ne, drugi gradovi HR) | Edukacija / pravni | Objavljeno | 17954574033324319 |
+| 2026-11-12 | 2026-11-12-kako-kupiti-sijalicu | Kako kupiti LED sijalicu: lumeni, klasa A–G, kelvini, CRI (EU uredbe) | Enterijer i opremanje | Čeka odobrenje | |
