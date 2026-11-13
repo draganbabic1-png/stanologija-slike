@@ -1,0 +1,18 @@
+NBS podigla kamatu na 6%: raste li rata stambenog kredita? Za većinu stambenih kredita u Srbiji, ne zbog ove odluke. 👇
+
+Narodna banka Srbije je 12. novembra podigla referentnu stopu sa 5,75% na 6,00%, prvi put posle 26 meseci. Ali skoro svi stambeni krediti u Srbiji indeksirani su u evrima i vezani za EURIBOR, a njega ne određuje NBS.
+
+Ključni brojevi:
+• 49% stambenih kredita odobreno je po fiksnoj kamati (NBS, jun 2026). Njima se rata ne menja.
+• Šestomesečni EURIBOR: 2,105% u januaru → 3,010% 11. novembra.
+• Na 100.000 € za 25 godina (marža 3%): rata oko 591 € u januaru, oko 645 € danas. +54 € mesečno (Obračun STANOLOGIJA, primer).
+• Dinarski krediti: prosečna kamata 8,4% naspram 4,7% za evro i evroindeksirane (NBS, jun 2026). Novi dinarski krediti bi mogli da poskupe za 3–6 meseci (procena, Kamatica).
+
+Uzmi ugovor i proveri: vrstu kamate, indeks, datum usklađivanja i maržu banke. Sledeća odluka NBS: 10. decembar.
+
+📩 Pošalji ovo nekome ko otplaćuje stan. Ti napiši u komentaru: fiksna ili promenljiva?
+
+Izvori: NBS (Tanjug, 12.11.2026); Magazin Biznis, 12.11.2026; NBS, Trendovi u kreditnoj aktivnosti banaka Q2 2026 (VP Law Firm, 5.11.2026); Biznis.rs, 15.9.2026; Srpske novine, 12.11.2026; euribor-rates.eu, 11.11.2026; CNBC, 29.10.2026.
+Obračun STANOLOGIJA: anuitet = P·i / (1−(1+i)^−300), i = (EURIBOR 6M + 3%) / 12. Primer, ne ponuda banke. Nije finansijski savet.
+
+#stanologija #stambenikredit #euribor #nbs #nekretnine

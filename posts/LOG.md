@@ -7,3 +7,4 @@
 | 2026-11-10 | 2026-11-10-plata-vs-kvadrat-region | Koliko plata košta stan od 60 m² (SR, HR, CG, BiH; novogradnja vs prosečna plata) | Tržište | Objavljeno | 18168614872487293 |
 | 2026-11-11 | 2026-11-11-porez-prazni-stanovi-zagreb | Zagreb od 2027. diže porez na prazne stanove sa 5 na 8 €/m² (ko plaća, ko ne, drugi gradovi HR) | Edukacija / pravni | Objavljeno | 17954574033324319 |
 | 2026-11-12 | 2026-11-12-kako-kupiti-sijalicu | Kako kupiti LED sijalicu: lumeni, klasa A–G, kelvini, CRI (EU uredbe) | Enterijer i opremanje | Objavljeno | 17911260084585830 / 17958433584313518 / 18136009822674309 |
+| 2026-11-13 | 2026-11-13-nbs-kamata-rata | NBS digla kamatu na 6%: raste li rata stambenog kredita (EURIBOR vs NBS, obračun rate, dinarski krediti) | Edukacija / finansije | Čeka odobrenje | |
