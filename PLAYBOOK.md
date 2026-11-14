@@ -43,6 +43,9 @@ Pogledaj `posts/LOG.md` da izbegneš ponavljanje i izbalansiraš stubove.
 ## Rast (šta algoritam nagrađuje, 2026)
 - Slanja u DM > lajkovi za doseg ka nepratiocima; vreme gledanja za Reels. Reels donose doseg, carousel angažman.
 - Najviše 5 hashtagova; ključne reči u prvoj rečenici captiona, imenu profila i biu.
+- Reel je obavezan svaki dan (glavni izvor dosega ka nepratiocima; nedelja 8-14.11: reel prosek 55 dosega, carousel 8,7).
+- Najmanje 2x nedeljno tema vezana za vest staru do 48 h (u okviru rotacije stubova).
+- Reel hook: pitanje u 2. licu o novcu ili svakodnevici ("Raste li ti rata...?", "Koliko ti..."), prvi kadar do 6 reči.
 - Doslednost: svaki dan, objave razmaknute nekoliko sati ako ih ima više.
 - Nedeljni izveštaj (nedelja uveče): doseg, slanja, sačuvano, novi pratioci po objavi, reel vs carousel; zaključak šta ponoviti.
 
