@@ -9,3 +9,4 @@
 | 2026-11-12 | 2026-11-12-kako-kupiti-sijalicu | Kako kupiti LED sijalicu: lumeni, klasa A–G, kelvini, CRI (EU uredbe) | Enterijer i opremanje | Objavljeno | 17911260084585830 / 17958433584313518 / 18136009822674309 |
 | 2026-11-13 | 2026-11-13-nbs-kamata-rata | NBS digla kamatu na 6%: raste li rata stambenog kredita (EURIBOR vs NBS, obračun rate, dinarski krediti) | Edukacija / finansije | Objavljeno | 18118875332467910 / 18120411583961073 / 18139903594660172 |
 | 2026-11-14 | 2026-11-14-zgrade-gradovi | Zgrade-gradovi ex-YU: Mamutica, Lamele Blok 21, Rudo, Karaburma "zid" (stanovi, stanari, dužina) | Kuriozeti | Čeka odobrenje | |
+| 2026-11-16 | 2026-11-16-sta-dobijes-za-100k | Šta dobiješ za 100.000 € (m² po gradovima Srbije i opštinama Beograda, RZS/RGZ 1. pol. 2026; sveže RZS dozvole sept. 2026) | Tržište | Čeka odobrenje | |
