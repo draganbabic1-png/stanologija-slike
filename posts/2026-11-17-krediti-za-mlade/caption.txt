@@ -1,0 +1,25 @@
+Kredit za mlade u Srbiji: kraj ili pauza? Banka Poštanska štedionica privremeno je prestala da prima nove zahteve za subvencionisane stambene kredite za mlade. 👇
+
+Šta se desilo (10. novembar 2026):
+• Kvota Poštanske štedionice od 440 mil. € (odobreni krediti + zahtevi u obradi) je popunjena. Preko nje je konkurisalo oko 5.300 mladih. Već primljeni zahtevi se obrađuju, a banka je tražila dodatna sredstva od Ministarstva finansija.
+• UniCredit i dalje prima zahteve (iskorišćeno oko 85% limita iz tranše), Erste takođe. NLB, Intesa i OTP nisu odgovorile novinarima.
+
+Program u brojevima:
+• Od marta 2025. odobreno je 8.400+ kredita, ukupno preko 670 mil. € (NBS, kraj avgusta 2026). To je u proseku oko 80.000 € po kreditu (Obračun STANOLOGIJA).
+• Garantni okvir države podignut je na 900 mil. € u junu 2026.
+• Uslovi: 1% učešća, do 100.000 €, fiksna kamata 3,5% prvih 6 godina od koje država plaća 2 poena (ti plaćaš 1,5%), rok do 40 godina, uzrast od 20 do dana pre 36. rođendana, 6 godina zabrane prodaje i izdavanja.
+
+Koliko vredi subvencija (primer, 80.000 € na 30 godina):
+• uz subvenciju (1,5%): oko 276 € mesečno
+• bez subvencije (3,5%): oko 359 € (+83 €)
+• komercijalni primer (EURIBOR 6M 3,01% + 3% marže): oko 480 €
+• posle 6 godina i u programu kamata je EURIBOR + 2%: po današnjem EURIBOR-u rata bi bila oko 399 €.
+
+Ako planiraš prvi stan: pitaj više banaka, proveri godine na dan predaje zahteva, izračunaj ratu i bez subvencije i ne daj kaparu dok banka pismeno ne potvrdi kredit (poslednja dva su naše mišljenje, ne finansijski savet).
+
+📩 Pošalji ovo nekome ko traži prvi stan. Ti napiši: da li bi uzeo kredit i bez subvencije?
+
+Izvori: Banka Poštanska štedionica i NBS preko Insajder.net, 10.11.2026; Forbes Srbija (N1), 10.11.2026; Ministarstvo finansija preko Novosti, 6.3.2025; euribor-rates.eu, 11.11.2026.
+Obračun STANOLOGIJA: anuitet = P·i / (1−(1+i)^−360), i = stopa / 12; prosek = 670 mil. € ÷ 8.400. Stanje po bankama se menja, proveri direktno u banci.
+
+#stanologija #kreditzamlade #stambenikredit #prvistan #nekretnine
