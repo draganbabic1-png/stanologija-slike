@@ -8,5 +8,5 @@
 | 2026-11-11 | 2026-11-11-porez-prazni-stanovi-zagreb | Zagreb od 2027. diže porez na prazne stanove sa 5 na 8 €/m² (ko plaća, ko ne, drugi gradovi HR) | Edukacija / pravni | Objavljeno | 17954574033324319 |
 | 2026-11-12 | 2026-11-12-kako-kupiti-sijalicu | Kako kupiti LED sijalicu: lumeni, klasa A–G, kelvini, CRI (EU uredbe) | Enterijer i opremanje | Objavljeno | 17911260084585830 / 17958433584313518 / 18136009822674309 |
 | 2026-11-13 | 2026-11-13-nbs-kamata-rata | NBS digla kamatu na 6%: raste li rata stambenog kredita (EURIBOR vs NBS, obračun rate, dinarski krediti) | Edukacija / finansije | Objavljeno | 18118875332467910 / 18120411583961073 / 18139903594660172 |
-| 2026-11-14 | 2026-11-14-zgrade-gradovi | Zgrade-gradovi ex-YU: Mamutica, Lamele Blok 21, Rudo, Karaburma "zid" (stanovi, stanari, dužina) | Kuriozeti | Čeka odobrenje | |
+| 2026-11-14 | 2026-11-14-zgrade-gradovi | Zgrade-gradovi ex-YU: Mamutica, Lamele Blok 21, Rudo, Karaburma "zid" (stanovi, stanari, dužina) | Kuriozeti | Objavljeno 17.11. | 18055872362597117 / 17882921007553757 / 18154763536550223 |
 | 2026-11-16 | 2026-11-16-sta-dobijes-za-100k | Šta dobiješ za 100.000 € (m² po gradovima Srbije i opštinama Beograda, RZS/RGZ 1. pol. 2026; sveže RZS dozvole sept. 2026) | Tržište | Objavljeno | 18116397875599755 / 18064388978797322 / 18651493246047846 |
