@@ -11,3 +11,4 @@
 | 2026-11-14 | 2026-11-14-zgrade-gradovi | Zgrade-gradovi ex-YU: Mamutica, Lamele Blok 21, Rudo, Karaburma "zid" (stanovi, stanari, dužina) | Kuriozeti | Objavljeno 17.11. | 18055872362597117 / 17882921007553757 / 18154763536550223 |
 | 2026-11-16 | 2026-11-16-sta-dobijes-za-100k | Šta dobiješ za 100.000 € (m² po gradovima Srbije i opštinama Beograda, RZS/RGZ 1. pol. 2026; sveže RZS dozvole sept. 2026) | Tržište | Objavljeno | 18116397875599755 / 18064388978797322 / 18651493246047846 |
 | 2026-11-17 | 2026-11-17-krediti-za-mlade | Kredit za mlade: kraj ili pauza? (Poštanska štedionica obustavila prijem, banke, uslovi, rata uz/bez subvencije) | Edukacija / finansije | Čeka odobrenje | |
+| 2026-11-18 | 2026-11-18-toplana-duguje-20 | Hladno ti je? Toplana ti duguje 20°C (propisane temperature, merenje, grejni dan, -5% po stepenu, prijava 11-0-11, obračun po potrošnji) | Standardi i dimenzije | Čeka odobrenje | |
