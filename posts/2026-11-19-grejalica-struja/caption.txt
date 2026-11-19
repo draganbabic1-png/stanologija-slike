@@ -1,0 +1,23 @@
+Grejalica i račun za struju: koliko te stvarno košta grejalica od 2 kW po EPS ceni kilovata, i zašto te zimi gura u skuplju zonu? ⚡
+
+Brojke (EPS cenovnik za domaćinstva, važi od 1.10.2025, bez akcize i PDV-a):
+🟢 Zelena zona (do 350 kWh): 8,41 din/kWh
+🔵 Plava (351–1.200 kWh): 12,62 din/kWh (1,5×)
+🔴 Crvena (preko 1.200 kWh): 25,24 din/kWh (3×)
+
+Grejalica od 2 kW troši 2 kWh na sat. Četiri sata dnevno = 240 kWh mesečno.
+Primer: domaćinstvo od 210 kWh plaća 1.766 din za energiju. Sa grejalicom je to 450 kWh, 100 kWh pada u plavu zonu i račun za kWh skače na 4.206 din: +2.439 din mesečno.
+
+Sat grejalice košta 16,82 din u zelenoj, 25,24 u plavoj i 50,47 din u crvenoj zoni. Oko 7% potrošača u decembru i januaru pređe 1.200 kWh (EPS).
+
+Kako da platiš manje:
+• Dvotarifno brojilo: noćna tarifa (NT) je 4× jeftinija (zelena 2,40 vs 9,61 din). NT traje 8 h: Beograd 00–08, Vojvodina 23–07, centralna Srbija 22–06.
+• Inverter klima klase A+ daje najmanje 4 kWh toplote po 1 kWh struje (SCOP ≥ 4). Ista toplota kao 240 kWh grejalice: oko 60 kWh struje, ≈505 din (procena; po jakom mrazu klima je manje efikasna).
+
+Napomena: Obračun STANOLOGIJA = kW × sati × cena zone. Na računu se dodaju obračunska snaga, naknade, akciza 7,5% i PDV 20%, pa je stvarni iznos veći. Novo poskupljenje struje još nije usvojeno; Savez energetičara ga očekuje 2027.
+
+📩 Pošalji ovo nekome ko greje stan grejalicom i čudi se računu. A ti napiši u komentaru koliko kWh ti je bilo prošlog januara.
+
+Izvori: EPS cenovnik garantovanog snabdevanja od 1.10.2025 (Nedeljnik, 1.10.2025); EPS, udeo potrošača iznad 1.200 kWh (2025); termini NT: Espreso/Mondo, 30.9.2026; Delegirana uredba (EU) 626/2011, Prilog II; akciza i PDV: N1; status poskupljenja: Danas 31.8.2026, Beta/Srbija Danas 7.11.2026.
+
+#stanologija #struja #grejanje #eps #ustedaenergije
