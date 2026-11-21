@@ -1,9 +1,10 @@
 """STANOLOGIJA - Reel (9:16 MP4) i Story (9:16 JPEG) iz gotovih carousel slajdova.
-Upotreba:  python3 tools/reel.py posts/<slug> [--slides 1,3,6,9] [--hook 3.0] [--dur 3.0]
-Pravi: posts/<slug>/reel.mp4 (1080x1920, 30 fps, H.264 + tiha AAC traka) i posts/<slug>/story.jpg.
+Upotreba:  python3 tools/reel.py posts/<slug> [--slides 1,3,6,9] [--hook 3.0] [--dur 3.0] [--seed N] [--no-music]
+Pravi: posts/<slug>/reel.mp4 (1080x1920, 30 fps, H.264 + AAC sa originalnom podlogom iz tools/music.py) i posts/<slug>/story.jpg.
+Seed muzike podrazumevano = datum iz imena foldera (svaki dan drugačija podloga).
 Slajd se postavlja na tamnoplavu podlogu (y=200), van zona koje pokriva Instagram UI.
 """
-import argparse, os, subprocess, tempfile
+import argparse, os, re, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFont
 
 NAVY, GOLD, CREAM = (14, 33, 51), (230, 178, 86), (244, 239, 230)
@@ -33,6 +34,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("post"); ap.add_argument("--slides", default="")
     ap.add_argument("--hook", type=float, default=3.0); ap.add_argument("--dur", type=float, default=3.0)
+    ap.add_argument("--seed", type=int, default=None); ap.add_argument("--no-music", action="store_true")
     a = ap.parse_args()
     files = sorted(f for f in os.listdir(a.post) if f[:2].isdigit() and f.endswith(".jpg"))
     idx = [int(x) for x in a.slides.split(",")] if a.slides else list(range(1, len(files) + 1))
@@ -50,7 +52,17 @@ def main():
     for p, t in zip(inputs, durs):
         cmd += ["-loop", "1", "-t", f"{t + X:.2f}", "-framerate", "30", "-i", p]
     total = sum(durs) + X
-    cmd += ["-f", "lavfi", "-t", f"{total:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
+    if a.no_music:
+        cmd += ["-f", "lavfi", "-t", f"{total:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
+    else:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import music
+        m = re.search(r"(\d{4})-(\d{2})-(\d{2})", os.path.basename(os.path.normpath(a.post)))
+        seed = a.seed if a.seed is not None else (int("".join(m.groups())) if m else 0)
+        wav = os.path.join(tmp, "music.wav")
+        data, bpm = music.make(total, seed)
+        music.save(wav, data)
+        cmd += ["-i", wav]
     fc, last, off = "", "0:v", 0.0
     for k in range(1, len(inputs)):
         off += durs[k - 1]
@@ -63,7 +75,7 @@ def main():
             "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart",
             os.path.join(a.post, "reel.mp4")]
     subprocess.run(cmd, check=True)
-    print(f"reel.mp4: {len(inputs)} slajdova, ~{total:.1f} s; story.jpg")
+    print(f"reel.mp4: {len(inputs)} slajdova, ~{total:.1f} s, muzika: {'ne' if a.no_music else 'da'}; story.jpg")
 
 if __name__ == "__main__":
     main()

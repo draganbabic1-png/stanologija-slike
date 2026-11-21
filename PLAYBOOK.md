@@ -28,6 +28,7 @@ Pogledaj `posts/LOG.md` da izbegneš ponavljanje i izbalansiraš stubove.
    - Posle rendera napravi contact_sheet i POGLEDAJ ga (Read) - proveri preklapanja teksta i izvora.
    - Reel + Story: `python3 tools/reel.py posts/<slug> --slides 1,a,b,c,N` (4-6 najjačih slajdova: hook, 2-4 ključna broja, CTA; ~13-17 s).
      Pravi `reel.mp4` (1080x1920) i `story.jpg`. Pogledaj bar jedan kadar reela (ffmpeg -ss) pre slanja.
+   - Muzika: reel.py automatski ubacuje originalnu instrumentalnu podlogu (`tools/music.py`, generisana u kodu, bez autorskih prava; seed = datum iz foldera, pa je svaki dan drugačija). `--no-music` za tih reel. Instagram biblioteka muzike nije dostupna preko API-ja.
 4. Caption: max 2200 znakova. Prva rečenica = hook sa ključnim rečima (pretraga po njima). Ključni brojevi, CTA sa slanjem, izvori.
    NAJVIŠE 5 hashtagova (Instagram limit; hashtagovi ne donose doseg): #stanologija + 4 tematska.
    Reel caption: kraći (do ~600 znakova): hook, 2-3 broja, "Ceo pregled sa izvorima u carousel objavi na profilu", izvori skraćeno, isti hashtagovi.
