@@ -28,6 +28,7 @@ Pogledaj `posts/LOG.md` da izbegneš ponavljanje i izbalansiraš stubove.
    - Posle rendera napravi contact_sheet i POGLEDAJ ga (Read) - proveri preklapanja teksta i izvora.
    - Reel + Story: `python3 tools/reel.py posts/<slug> --slides 1,a,b,c,N` (4-6 najjačih slajdova: hook, 2-4 ključna broja, CTA; ~13-17 s).
      Pravi `reel.mp4` (1080x1920) i `story.jpg`. Pogledaj bar jedan kadar reela (ffmpeg -ss) pre slanja.
+   - ALT tekst: `d.render` automatski pravi `alt.txt` (red po slajdu: `NN<TAB>tekst`, max 1000 znakova) iz teksta slajda + izvora. Pročitaj ga i po potrebi daj ručni opis preko `add(..., alt="...")` (npr. za grafikone: šta pokazuju, najveća i najmanja vrednost). ALT je za čitače ekrana i da Instagram bolje razume sadržaj slajda; reel i story ga preko API-ja ne podržavaju.
    - Muzika: reel.py automatski ubacuje originalnu instrumentalnu podlogu (`tools/music.py`, generisana u kodu, bez autorskih prava; seed = datum iz foldera, pa je svaki dan drugačija). `--no-music` za tih reel. Instagram biblioteka muzike nije dostupna preko API-ja.
 4. Caption: max 2200 znakova. Prva rečenica = hook sa ključnim rečima (pretraga po njima). Ključni brojevi, CTA sa slanjem, izvori.
    NAJVIŠE 5 hashtagova (Instagram limit; hashtagovi ne donose doseg): #stanologija + 4 tematska.
@@ -36,7 +37,7 @@ Pogledaj `posts/LOG.md` da izbegneš ponavljanje i izbalansiraš stubove.
    `https://raw.githubusercontent.com/draganbabic1-png/stanologija-slike/main/posts/<slug>/NN.jpg`
 6. Pošalji Draganu slike + reel.mp4 + story.jpg (SendUserFile) + oba captiona (SendUserMessage) + push notifikaciju. Čekaj "objavi".
 7. Na "objavi" (Windsor.ai, connector `instagram`, account `17841478090435807`), redom:
-   a) `create_carousel_post`: `image_urls` (raw linkovi po redu) + `caption` iz caption.txt.
+   a) `create_carousel_post`: `items` = [{`image_url`: raw link NN.jpg, `alt_text`: red NN iz alt.txt}, ...] po redu (ne `image_urls`) + `caption` iz caption.txt.
    b) `create_video_post`: `video_url` = raw link reel.mp4, `caption` iz reel_caption.txt, `share_to_feed` true, `thumb_offset` 0.
    c) `create_story`: `image_url` = raw link story.jpg.
    Upiši media id-jeve (carousel / reel / story) u `posts/LOG.md` i push. Ako jedan korak ne uspe, javi tačno koji i ne ponavljaj ostale.

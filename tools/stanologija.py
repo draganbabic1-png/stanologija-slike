@@ -55,11 +55,38 @@ def bars(rows, maxv, fmt, hi=None):
 
 def eur(x): return f"{x:,.0f} €".replace(",", ".")
 
+def alt_from_html(body, src, i, n):
+    """ALT tekst za Instagram (max 1000 znakova): opis slajda + sav tekst sa njega, redom."""
+    import re, html as H
+    t = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", body, flags=re.S)
+    t = re.sub(r"<br\s*/?>", " ", t)
+    t = re.sub(r"</t[dh]>", " | ", t)
+    t = re.sub(r"</(div|tr|h1|h2|p|li|table)>", " \u00b6 ", t)
+    t = H.unescape(re.sub(r"<[^>]+>", " ", t))
+    t = t.replace("\u2192", " ").replace("\u2713", " ")
+    t = re.sub(r"\s+", " ", t)
+    t = re.sub(r"\s*\|\s*\u00b6", " \u00b6", t)
+    parts = [p.strip(" |") for p in t.split("\u00b6")]
+    parts = [p if p[-1] in ".!?:" else p + "." for p in parts if p]
+    t = re.sub(r"\s+([,.;:!?])", r"\1", " ".join(parts))
+    out = f"Slajd {i}/{n}, STANOLOGIJA, tamnoplava podloga sa zlatnim i krem tekstom. {t}"
+    if src:
+        out += " Izvor: " + re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", "", src))).strip()
+    return out[:1000].rstrip()
+
+def write_alt(out, alts):
+    """alt.txt: jedan red po slajdu, 'NN<TAB>tekst'. Koristi se kao alt_text u create_carousel_post (items)."""
+    with open(f"{out}/alt.txt", "w", encoding="utf-8") as f:
+        for k, a in enumerate(alts, 1):
+            f.write(f"{k:02d}\t{a}\n")
+
 class Deck:
     def __init__(self, n):
-        self.n, self.slides = n, []
-    def add(self, body, src=""):
+        self.n, self.slides, self.alts = n, [], []
+    def add(self, body, src="", alt=None):
+        """alt: ručni ALT tekst; bez njega se pravi automatski iz teksta slajda (+ izvor)."""
         i = len(self.slides) + 1
+        self.alts.append(alt or alt_from_html(body, src, i, self.n))
         s = f'<div class="s"><div class="line"></div>{body}'
         if src: s += f'<div class="src">{src}</div>'
         s += f'<div class="brand">STANOLOGIJA</div><div class="pg">{i}/{self.n}</div></div>'
@@ -78,6 +105,7 @@ class Deck:
                     await pg.screenshot(path=f"{out}/{i:02d}.jpg", type="jpeg", quality=92)
                 await b.close()
         asyncio.run(go())
+        write_alt(out, self.alts)
 
 def contact_sheet(out, n, path):
     """Pregledna mreža svih slajdova (za proveru preklapanja)."""
