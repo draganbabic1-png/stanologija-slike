@@ -71,7 +71,8 @@ def alt_from_html(body, src, i, n):
     t = re.sub(r"\s+([,.;:!?])", r"\1", " ".join(parts))
     out = f"Slajd {i}/{n}, STANOLOGIJA, tamnoplava podloga sa zlatnim i krem tekstom. {t}"
     if src:
-        out += " Izvor: " + re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", "", src))).strip()
+        sx = re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", "", src))).strip()
+        out += " " + sx if sx.lower().startswith(("izvor", "obračun")) else " Izvor: " + sx
     return out[:1000].rstrip()
 
 def write_alt(out, alts):
