@@ -52,5 +52,16 @@ Pogledaj `posts/LOG.md` da izbegneš ponavljanje i izbalansiraš stubove.
 - Doslednost: svaki dan, objave razmaknute nekoliko sati ako ih ima više.
 - Nedeljni izveštaj (nedelja uveče): doseg, slanja, sačuvano, novi pratioci po objavi, reel vs carousel; zaključak šta ponoviti.
 
+## Metod pisanja (Instagram AI Kit, Sasvim Digitalno – prilagođeno za faceless STANOLOGIJA)
+Dragan je 26.11.2026. tražio da se ovaj vodič koristi za dalji rad. Primenjuje se na svaku objavu:
+- **Jedno pogrešno uverenje ili konkretan problem.** Pre slajdova zapiši (za sebe): koje uverenje/zabludu/strah/želju publike objava menja i koji je cilj objave: (A) privlači nove ljude, (B) gradi poverenje, (C) pomaže odluku (kupovina/zakup/kredit). Rotiraj A/B/C kroz nedelju i upiši slovo u kolonu Tema u LOG.md, npr. "[A] ...".
+- **Hook:** smisli najmanje 10 kandidata kroz 5 principa (radoznalost, osporavanje uverenja, prepoznavanje problema, neočekivano poređenje, storytelling). Svaki mora biti razumljiv bez konteksta i povezan sa sadržajem; bez lažnih obećanja i senzacionalizma. Najbolji ide na slajd 1, a Draganu u poruci pošalji još 2 najbolja kao alternativu (sa principom).
+- **Karusel (8-10 slajdova):** 1 = radoznalost; 2 = konkretizuje problem; dalje priča kroz svakodnevni primer (npr. "stan od 60 m²", "plata od X"), ne nabrajanje generičkih saveta; svaki slajd jedna jasna misao i razlog da se prevuče dalje; pretposlednji = snažan zaključak; poslednji = prirodan CTA sa slanjem. Boje ostaju brend STANOLOGIJA (ne bela/žuta iz vodiča).
+- **Reel (faceless, tekst na ekranu):** redosled kadrova = hook → problem → primer/broj → rešenje/zaključak → CTA. Kratke rečenice, razgovorni ton, bez klišea i generičkog AI jezika ("u današnjem svetu", "ključno je", "nije tajna da").
+- **Story:** jedan story dnevno preko API-ja (samo slika). U poruci Draganu predloži i jedno pitanje za anketu/stiker koje može ručno da doda u aplikaciji (interakcija), ako želi.
+- **Nikad ne izmišljaj** iskustva korisnika, popuste, ograničenu dostupnost, preglede ni metrike.
+- **Nedeljni izveštaj (analiza statistike):** porede se samo uporedive objave (format, starost, tema, cilj A/B/C); najuspešnije po slanjima, čuvanjima i novim pratiocima, ne samo po pregledima; razdvoji činjenice od hipoteza; zaključak u 3 dela: šta prestati, šta nastaviti, koji eksperiment sledeće nedelje.
+- **Jednokratni zadaci iz vodiča** (analiza profila/BIO, idealni pratilac, istraživanje konkurencije, 30 tema) rade se samo kad Dragan zatraži i dostavi materijal (npr. screenshot profila); rezultate sačuvati u repo kao `strategija/*.md` i koristiti pri izboru tema.
+
 ## Komentari
 Pre nove teme pogledaj komentare na prethodnim objavama (Windsor get_data, connector instagram) i predloži Draganu odgovore. Ne objavljuj odgovore bez odobrenja.
